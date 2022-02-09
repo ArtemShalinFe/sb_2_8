@@ -12,7 +12,6 @@ struct Film {
     var duration: Int {  // Потом переведем в формат "1ч 20 мин"
         Int.random(in: 80...120)
     }
-    
     var score: Float {
         Float.random(in: 5...10)
     }
