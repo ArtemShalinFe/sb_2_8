@@ -12,6 +12,7 @@ struct Film {
     var duration: Int {  // Потом переведем в формат "1ч 20 мин"
         Int.random(in: 80...120)
     }
+    
     var score: Float {
         Float.random(in: 5...10)
     }
@@ -55,7 +56,7 @@ enum TitleFilm: String {
     case avengers = "Avengers: Endgame"
     case badBoys = "Bad boys 2"
     case onePlusOne = "1+1"
-    case mirror = "black mirror"
+    case mirror = "Black mirror"
 }
 
 enum Genre: String {
@@ -68,5 +69,5 @@ enum Cover: String {
     case avengers = "Avengers: Endgame_cover"
     case badBoys = "Bad boys 2_cover"
     case onePlusOne = "1+1_cover"
-    case mirror = "black mirror_cover"
+    case mirror = "Black mirror_cover"
 }
